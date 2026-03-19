@@ -90,19 +90,19 @@ const AddProperty = () => {
                 id="prop-location"
                 type="text"
                 name="location"
-                placeholder="e.g. Mumbai, Maharashtra"
+                placeholder="e.g. Kathmandu, Bagmati"
                 value={formData.location}
                 onChange={handleChange}
                 required
               />
             </div>
             <div className="form-group">
-              <label htmlFor="prop-price">Monthly Rent (₹)</label>
+              <label htmlFor="prop-price">Monthly Rent (NPR)</label>
               <input
                 id="prop-price"
                 type="number"
                 name="price"
-                placeholder="e.g. 25000"
+                placeholder="e.g. 15000"
                 value={formData.price}
                 onChange={handleChange}
                 required
@@ -121,6 +121,7 @@ const AddProperty = () => {
                 onChange={handleChange}
               >
                 <option value="Apartment">Apartment</option>
+                <option value="Room">Room</option>
                 <option value="Villa">Villa</option>
                 <option value="House">House</option>
                 <option value="Studio">Studio</option>

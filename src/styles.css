@@ -1085,3 +1085,51 @@ button { cursor: pointer; font-family: inherit; }
 .custom-search .search-field {
   width: 100%;
 }
+
+/* ==========================================
+   BUTTON SIZE VARIANTS
+   ========================================== */
+.btn-sm {
+  padding: 8px 18px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.btn-lg {
+  padding: 18px 40px;
+  font-size: 1.15rem;
+}
+
+/* ==========================================
+   PAGE HEADER (Properties listing page)
+   ========================================== */
+.page-header {
+  padding: 120px 24px 40px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(138,43,226,0.08) 0%, rgba(255,42,133,0.04) 60%, transparent 100%);
+}
+.page-header h1 {
+  font-size: 3rem;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+.page-header p {
+  color: var(--color-text-secondary);
+  font-size: 1.15rem;
+}
+
+/* ==========================================
+   NO RESULTS STATE
+   ========================================== */
+.no-results {
+  text-align: center;
+  padding: 60px 24px;
+}
+.no-results h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+.no-results p {
+  color: var(--color-text-secondary);
+  font-size: 1.05rem;
+}

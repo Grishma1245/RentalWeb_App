@@ -125,7 +125,7 @@ export const mockProperties = [
     type: 'Room',
     description:
       'A comfortable room with attached bathroom in a residential area of Koteshwor, Kathmandu. The room is on the top floor with great natural light and cross ventilation. Includes a single bed, wardrobe, and desk. Kitchen access shared with the landlord family. Close to bus stops and local shops.',
-    image: 'https://images.unsplash.com/photo-1598928506311-c55ez637a499?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1598928506311-c55ece5c1870?w=600&q=80',
     owner: 'Sunita Maharjan',
     ownerContact: 'sunita@example.com',
     ownerPhone: '+977 9841987654',

@@ -34,7 +34,7 @@ const Properties = () => {
   useEffect(() => {
     applyFilters();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [filters]);
 
   // Update a single filter field
   const handleFilterChange = (name, value) => {

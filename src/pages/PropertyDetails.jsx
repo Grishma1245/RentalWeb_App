@@ -115,7 +115,7 @@ const PropertyDetails = () => {
         {/* Right: Booking card sidebar */}
         <div>
           <div className="booking-card">
-            <div className="price-display">₹{property.price.toLocaleString()}</div>
+            <div className="price-display">NPR {property.price.toLocaleString()}</div>
             <div className="price-period">per month</div>
 
             <hr />
