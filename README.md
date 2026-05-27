@@ -1,6 +1,6 @@
 # 🏠 RentEase Nepal — Rental Property Web Application
 
-A modern, responsive rental property management web application built with **React + Vite**, focused on properties across Nepal (Kathmandu, Pokhara, Butwal, Ghorahi, Chitwan). Prices are listed in **NPR (Nepalese Rupees)**.
+A modern, responsive rental property management web application built with **React + Vite**, focused on properties across Nepal (Kathmandu, Pokhara, Butwal, Ghorahi, Chitwan). 
 
 ## ✨ Features
 
@@ -24,7 +24,7 @@ A modern, responsive rental property management web application built with **Rea
 | Axios | HTTP Client |
 | CSS3 | Styling (custom, no framework) |
 
-## 🚀 Getting Started
+
 
 ### Prerequisites
 - Node.js (v18+)
@@ -48,13 +48,7 @@ npm run dev
 
 The app will be available at `http://localhost:5173`.
 
-### Demo Accounts
 
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@rentease.com | admin123 |
-| Owner | rajesh@rentease.com | owner123 |
-| Tenant | hari@rentease.com | tenant123 |
 
 ## 📁 Project Structure
 
