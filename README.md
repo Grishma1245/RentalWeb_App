@@ -1,6 +1,6 @@
 # 🏠 RentEase Nepal — Rental Property Web Application
 
-A modern, responsive rental property management web application built with **React + Vite**, focused on properties across Nepal (Kathmandu, Pokhara, Butwal, Ghorahi, Chitwan). 
+A modern, responsive rental property management web application built with **React + Vite**, focused on properties across Nepal (Kathmandu, Pokhara, Butwal, Ghorahi, chitwan) 
 
 ## ✨ Features
 
