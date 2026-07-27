@@ -6,7 +6,7 @@ User Authentication Add & Manage Rental Listings Search & Browse Properties Full
 
 🛠️ Tech Stack
 
-React TailwindCSS Node.js Express MongoDB Supabase JWT Brevo Vercel
+React |TailwindCSS| Node.js| Express| MongoDB| Supabase| JWT| Brevo |Vercel|CloudFlare
 
 📸 Screenshots
 rentease home page
