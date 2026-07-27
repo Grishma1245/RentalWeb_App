@@ -1,3 +1,4 @@
+##RentEase
 A modern full-stack room rental platform built to simplify finding and listing rental properties with a clean and responsive user experience.
 
 🚀 Features
@@ -47,6 +48,7 @@ JWT_SECRET=your_secret_key
 BREVO_API_KEY=your_key
 SUPABASE_URL= your_URL
 VITE_BASE_URI=your_URL
+
 🎯 Project Purpose
 RentEase was built to simplify the process of finding and listing rental properties through a modern, fast, and user-friendly platform.
 
@@ -65,6 +67,10 @@ Using modern cloud technologies like Supabase for database/storage and Vercel fo
 Creating a fully responsive platform usable across all devices
 
 The project also reflects modern full-stack development practices by combining clean frontend design with scalable backend services.
+
+##Author
+Grishma Acharya
+
 
 
 
