@@ -1,85 +1,72 @@
-# 🏠 RentEase Nepal — Rental Property Web Application
+A modern full-stack room rental platform built to simplify finding and listing rental properties with a clean and responsive user experience.
 
-A modern, responsive rental property management web application built with **React + Vite**, focused on properties across Nepal (Kathmandu, Pokhara, Butwal, Ghorahi, chitwan) 
+🚀 Features
+User Authentication Add & Manage Rental Listings Search & Browse Properties Fully Responsive Design Fast Performance Fund transfer and fund returning policy. Cloud Deployment Database & Storage Integration with Supabase
 
-## ✨ Features
+🛠️ Tech Stack
 
-- **Property Listings** — Browse rooms and apartments across major cities in Nepal
-- **Search & Filter** — Find properties by location, type, and price range
-- **Property Details** — View detailed property information with owner contact
-- **Authentication System** — Login and registration with role-based access
-- **Role-based Dashboards**:
-  - 🛡️ **Admin** — Manage properties, owners, tenants, and bookings
-  - 🏢 **Property Owner** — List and manage owned properties
-  - 🏠 **Tenant** — View bookings and rental information
-- **Responsive Design** — Modern SaaS-style UI with 3D animations
+React TailwindCSS Node.js Express MongoDB Supabase JWT Brevo Vercel
 
-## 🛠️ Tech Stack
+📸 Screenshots
+rentease home page
+home
 
-| Technology | Purpose |
-|-----------|---------|
-| React 19 | UI Library |
-| Vite 7 | Build Tool & Dev Server |
-| React Router v7 | Client-side Routing |
-| Axios | HTTP Client |
-| CSS3 | Styling (custom, no framework) |
+Login page
+login
 
+owner dashboard
+owner
 
+Tenant dashboard
+Tenant
 
-### Prerequisites
-- Node.js (v18+)
-- npm (v9+)
+⚙️ Installation
+Clone the repository
 
-### Installation
+git clone https://github.com/Grishma1245/RentalWeb_App
 
-```bash
-# Clone the repository
-git clone https://github.com/Grishma1245/RentalWeb_App.git
+cd RentEase
+Install dependencies
 
-# Navigate to the project
-cd RentalWeb_App
-
-# Install dependencies
 npm install
+Run backend
 
-# Start development server
+cd backend
+npm start
+Run frontend
+
+cd frontend
 npm run dev
-```
+🔑 Environment Variables
+Create a .env file in backend folder
 
-The app will be available at `http://localhost:5173`.
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
+CLIENT_URI
+JWT_SECRET=your_secret_key
+BREVO_API_KEY=your_key
+SUPABASE_URL= your_URL
+VITE_BASE_URI=your_URL
+🎯 Project Purpose
+RentEase was built to simplify the process of finding and listing rental properties through a modern, fast, and user-friendly platform.
+
+The goal of the project is to provide renters with an easy way to explore available rooms or properties while allowing owners to manage and showcase their listings efficiently.
+
+RentEase focuses on:
+
+Making property searching simple and accessible
+
+Providing a smooth and responsive user experience
+
+Ensuring secure data handling and authentication
+
+Using modern cloud technologies like Supabase for database/storage and Vercel for deployment
+
+Creating a fully responsive platform usable across all devices
+
+The project also reflects modern full-stack development practices by combining clean frontend design with scalable backend services.
 
 
 
-## 📁 Project Structure
 
-```
-src/
-├── assets/             # Images and static assets
-├── components/         # Reusable UI components
-│   ├── Navbar.jsx
-│   ├── Footer.jsx
-│   ├── PropertyCard.jsx
-│   └── SearchBar.jsx
-├── contexts/           # React Context providers
-│   └── AuthContext.jsx
-├── pages/              # Route page components
-│   ├── Home.jsx
-│   ├── Login.jsx
-│   ├── Register.jsx
-│   ├── Properties.jsx
-│   ├── PropertyDetails.jsx
-│   ├── AddProperty.jsx
-│   ├── AdminDashboard.jsx
-│   ├── PropertyOwnerDashboard.jsx
-│   └── TenantDashboard.jsx
-├── services/           # API service layer
-│   └── api.js
-├── styles.css          # Global styles
-├── dashboard.css       # Dashboard-specific styles
-├── App.jsx             # Root component with routing
-└── main.jsx            # Application entry point
-```
 
-## 📄 License
-
-This project is for educational purposes.
