@@ -3,6 +3,7 @@
 # 🏠 RentEase
 
 **A modern full-stack room rental platform built to simplify finding and listing rental properties with a clean and responsive user experience.**
+**https://rent-ease-peach-seven.vercel.app**
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
@@ -48,24 +49,23 @@
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-<!-- Add your screenshot here -->
-<!-- ![RentEase Home Page](screenshots/home.png) -->
+
+<img width="1647" height="897" alt="Home page" src="https://github.com/user-attachments/assets/ddc30f8e-ced2-4360-853b-0c173369aecf" />
+
 
 ### 🔐 Login Page
-<!-- Add your screenshot here -->
-<!-- ![Login Page](screenshots/login.png) -->
+<img width="1135" height="892" alt="loginpage" src="https://github.com/user-attachments/assets/7bd686df-7014-4912-84df-cc7bfc4a235e" />
 
-### 👤 Owner Dashboard
-<!-- Add your screenshot here -->
-<!-- ![Owner Dashboard](screenshots/owner.png) -->
+### 👤 PropertyOwner Dashboard
+<img width="1571" height="785" alt="propertyOwner" src="https://github.com/user-attachments/assets/ca1a2629-3d09-404e-93b2-19f92dc0ba7e" />
+
 
 ### 🏘️ Tenant Dashboard
-<!-- Add your screenshot here -->
-<!-- ![Tenant Dashboard](screenshots/tenant.png) -->
+<img width="1591" height="890" alt="Tenant" src="https://github.com/user-attachments/assets/641e0aa6-c75e-4a31-a8dc-0cd76cb8538c" />
 
-> 📌 *Screenshots will be added soon.*
 
----
+
+
 
 ## ⚙️ Installation
 
@@ -120,9 +120,7 @@ SUPABASE_URL=your_supabase_url
 VITE_BASE_URI=your_base_url
 ```
 
-> ⚠️ **Note:** Never commit your `.env` file to version control. Make sure it's listed in `.gitignore`.
 
----
 
 ## 🎯 Project Purpose
 
